@@ -1,0 +1,160 @@
+#circulo-uno{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#circulo-dos {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    height: 240px;
+    width: 240px;
+    margin: 0rem 0rem 9rem 1.7rem; /* top right botton left */
+    padding: 0rem 0rem 0rem 0rem; /* top right botton left */
+    background-image: linear-gradient(300deg, #FEED07, #FE6A50, #ED00AA , #2FE3FE); 
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 50%;
+    border-width:0rem;
+    animation:rot 9s linear infinite;
+
+}
+
+.circle1:after{
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+}
+
+.circle2:after{
+    content: '';
+    padding-bottom: 100%;
+    display: block;
+}
+
+.circle2 {
+    height:240px;
+    width:240px;
+    margin: 9rem 0rem 0rem 0rem; /* top right botton left */
+    padding: 0rem 0rem 0rem 0rem; /* top right botton left */
+    background-image:linear-gradient(red,yellow);
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 50%;
+    border-width:0px;
+    animation:rot 9s linear infinite; 
+}
+
+.circle3 {
+    height:200px;
+    width:200px;
+    background-image:radial-gradient(closest-side at 60% 55%, #FEED07, #FE6A50, #ED00AA , orange);
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 50%;
+    border-width:0px;
+    animation:rot 9s linear infinite;
+    padding:1px;
+}
+
+.circle4 {
+    height:200px;
+    width:200px;
+    background-image:radial-gradient(closest-side at 60% 55%, #FEED07, #FE6A50, #ED00AA , orange);
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 50%;
+    border-width:0px;
+    animation:red 9s alternate infinite;
+    padding:1px;
+}
+
+.uno {
+    animation:7s red linear infinite;
+    animation:7s red linear infinite;
+    background-image: -moz-radial-gradient(50% 50%, circle contain, rgba(222, 75, 218, .75), rgba(222, 75, 218, 0) 100%);
+    background-image: -webkit-radial-gradient(50% 50%, circle contain, rgba(222, 75, 218, .75), rgba(222, 75, 218, 0) 100%); 
+}
+
+
+@keyframes red{
+    0% {-webkit-transform: rotate(0deg) translate(-40px) rotate(0deg) scale(1,1);}
+    50% {-webkit-transform: rotate(-180deg) translate(-40px) rotate(-180deg) scale(1,1);}
+    100% {-webkit-transform: rotate(-360deg) translate(-40px) rotate(-360deg) scale(1,1);}
+}
+
+@keyframes rot {
+    0%{transform:rotate(0deg)}
+    25%{transform:rotate(90deg)}
+    50%{transform:rotate(180deg)}
+    75%{transform:rotate(270deg)}
+    100%{transform:rotate(360deg)}
+}
+
+@keyframes rut {
+    0%{transform:rotate(0deg)}
+    20%{transform:rotate(90deg)}
+    40%{transform:rotate(180deg)}
+    60%{transform:rotate(270deg)}
+    80%{transform:rotate(360deg)}
+    100%{transform:rotate(450deg)}
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.carousel-demo .ui-carousel .ui-carousel-content .ui-carousel-item .car-details > .p-grid {
+    border: 1px solid #b3c2ca;
+    border-radius: 3px;
+    margin: 0.3em;
+    text-align: center;
+    padding: 2em 0 2.25em 0;
+}
+.carousel-demo .ui-carousel .ui-carousel-content .ui-carousel-item .car-data .car-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.carousel-demo .ui-carousel .ui-carousel-content .ui-carousel-item .car-data .car-subtitle {
+    margin: 0.25em 0 2em 0;
+}
+.carousel-demo .ui-carousel .ui-carousel-content .ui-carousel-item .car-data button {
+    margin-left: 0.5em;
+}
+.carousel-demo .ui-carousel .ui-carousel-content .ui-carousel-item .car-data button:first-child {
+    margin-left: 0;
+}
+.carousel-demo .ui-carousel.custom-carousel .ui-carousel-dot-icon {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+}
+.carousel-demo .ui-carousel.ui-carousel-horizontal .ui-carousel-content .ui-carousel-item.ui-carousel-item-start .car-details > .p-grid {
+    margin-left: 0.6em;
+}
+.carousel-demo .ui-carousel.ui-carousel-horizontal .ui-carousel-content .ui-carousel-item.ui-carousel-item-end .car-details > .p-grid {
+    margin-right: 0.6em;
+}
+
+.ui-carousel-dot-icon{
+    background-color: black;
+}
+
+.item-l {
+    writing-mode: vertical-lr;
+    transform: rotate(270deg);
+}
+
+.buttonInstagram {
+    writing-mode: vertical-lr;
+    transform: rotate(270deg);
+}
+

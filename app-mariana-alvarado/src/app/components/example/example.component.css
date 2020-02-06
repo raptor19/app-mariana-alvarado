@@ -1,0 +1,17 @@
+#canvas-basic {
+    position: absolute;
+}
+
+#planoA {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #d9d9d9;
+}
+
+#planoB {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #d9d9d9;
+}
